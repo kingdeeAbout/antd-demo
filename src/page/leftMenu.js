@@ -3,6 +3,7 @@
  */
 import React from 'react';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom'
+import '../assets/less/common.less'
 import OperateCenter from '../page/operate/operateCenter'
 import BBB from '../page/b'
 import {Menu, Icon} from 'antd';
@@ -36,8 +37,8 @@ export default class LeftMenu extends React.Component{
     render() {
         return (
             <Router>
-                <div>
-                    <div style={{width: '20%', float: 'left'}}>
+                <div className="clearfloat">
+                    <div style={{width: '240px', float: 'left'}}>
                         {/*<Menu theme="light" defaultSelectedKeys={['1']} mode="inline">*/}
                             {/*<Menu.Item key="1">*/}
                                 {/*<Icon type="pie-chart"/>*/}
