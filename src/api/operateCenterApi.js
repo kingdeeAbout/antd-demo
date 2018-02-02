@@ -7,7 +7,7 @@ class atest {
     gettext (data) {
         return new Promise(function (resolve, reject) {
             ajax({
-                url: 'http://localhost:3001/mock/test.json',
+                url: 'http://localhost:3000/mock/test.json',
                 json: false,
                 data: data,
                 method: 'GET'

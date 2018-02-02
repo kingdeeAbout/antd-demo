@@ -3,7 +3,7 @@
  */
 import React from 'react';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom'
-import AAA from '../page/a'
+import OperateCenter from '../page/operate/operateCenter'
 import BBB from '../page/b'
 import {Menu, Icon} from 'antd';
 const SubMenu = Menu.SubMenu;
@@ -76,7 +76,7 @@ export default class LeftMenu extends React.Component{
                         </Menu>
                     </div>
                     <div style={{float: 'right', width: '80%'}}>
-                            <Route path="/a" component={AAA}/>
+                            <Route path="/a" component={OperateCenter}/>
                             <Route path="/b" component={BBB}/>
                     </div>
                 </div>
