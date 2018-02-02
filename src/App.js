@@ -3,8 +3,6 @@ import './App.css';
 import Header from './page/header'
 import LeftMenu from './page/leftMenu'
 
-
-
 class App extends Component {
   render() {
     return (
